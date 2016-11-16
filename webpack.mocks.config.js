@@ -26,7 +26,7 @@ module.exports = {
     ]
   },
   resolve: {
-    extensions: ['', '.css', '.scss', '.html', '.js'],
-    modulesDirectories: ['node_modules', 'bower_components'],
+    extensions: ['', '.js'],
+    modulesDirectories: ['bower_components'],
   }
 }
