@@ -1,4 +1,4 @@
 webpack.config.js
-webpack.test.config.js
+webpack.mocks.config.js
 __tests__
 __mocks__
