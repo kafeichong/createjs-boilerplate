@@ -25,6 +25,6 @@ Task                               | Status
 Local CreateJS package             | ✔
 Starter classes                    | ✔
 Testing                            |
-Description/instruction            | ✔
+Description/instruction            | mocks & testing
 Prod/dev environment               |
 Script for clean environment setup | ✔

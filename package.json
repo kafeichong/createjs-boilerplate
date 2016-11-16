@@ -6,6 +6,7 @@
   "scripts": {
     "start": "webpack-dev-server --inline",
     "build": "webpack",
+    "mocks": "webpack --config webpack.mocks.config.js",
     "setup": "sh ./setup.sh"
   },
   "repository": {
@@ -58,6 +59,12 @@
   },
   "jest": {
     "verbose": true,
-    "moduleDirectories": ["node_modules", "bower_components"]
+    "moduleDirectories": ["node_modules", "bower_components"],
+    "moduleNameMapper": {
+      "EaselJS": "<rootDir>/__mocks__/EaselJS",
+      "TweenJS": "<rootDir>/__mocks__/TweenJS",
+      "PreloadJS": "<rootDir>/__mocks__/PreloadJS",
+      "SoundJS": "<rootDir>/__mocks__/SoundJS"
+    }
   }
 }
