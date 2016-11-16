@@ -20,11 +20,6 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/,
-        exclude: /node_modules|bower_components/,
-        loader: 'babel-loader',
-      },
-      {
         test: /bower_components(\/|\\)(PreloadJS|SoundJS|EaselJS|TweenJS)(\/|\\).*\.js$/,
         loader: 'imports?this=>window!exports?window.createjs',
       },
